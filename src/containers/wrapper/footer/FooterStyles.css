@@ -1,0 +1,30 @@
+.FooterWrapper {
+    display: flex;
+    flex-direction: row;
+    margin-top: auto;
+    justify-content: space-around;
+    width: 100%;
+    height: 13em;
+    background-color: #2F2F29;
+    color: #D8DFBA;
+    font: Avenir;
+    font-size: .85em; 
+    font-weight: 300;
+}
+
+.LeftContent {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    color: #969569;
+}
+
+.RightContent {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.RightUpper {
+    font-size: 1.3125em;
+}

@@ -1,0 +1,43 @@
+.HeaderWrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    height: 5%;
+    padding-top: .5%;
+    padding-bottom: .5%;
+    margin-left: 10%;
+    margin-right:10%;
+}
+
+.Hamburger {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 10%;
+}
+
+
+
+.Title {
+    display: flex;
+    flex-direction: column;
+    font: Avenir;
+    color: #8C9B94;
+    font-weight: 300;
+    font-size: .75em;
+    line-height: 0;
+    
+}
+
+.cmmIcon {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    width:10%;
+    font: Avenir;
+    color: #8C9B94; 
+    font-weight: 500;
+    font-size: .75em;
+}

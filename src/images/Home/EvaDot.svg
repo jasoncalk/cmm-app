@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 57 (83077) - https://sketch.com -->
+    <title>Dot</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <circle id="path-1" cx="12" cy="12" r="12"></circle>
+    </defs>
+    <g id="Home" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Home-Large" transform="translate(-854.000000, -925.000000)">
+            <g id="Profile:-Nigeria" transform="translate(854.000000, 112.000000)">
+                <g id="Dot/✞-Evangelicals" transform="translate(0.000000, 813.000000)">
+                    <mask id="mask-2" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <use id="Mask" fill="#D8D8D8" fill-rule="nonzero" xlink:href="#path-1"></use>
+                    <g id="_Colors/Grape-Light" mask="url(#mask-2)" fill="#966274" fill-rule="nonzero">
+                        <g transform="translate(-70.000000, -71.000000)" id="Container-Copy">
+                            <rect x="0" y="40" width="160" height="80"></rect>
+                        </g>
+                    </g>
+                    <path d="M16.75,9 C16.75,8.33333333 17.75,8.33333333 17.75,9 L17.75,11.9078947 C17.75,12.1840371 17.5261424,12.4078947 17.25,12.4078947 L14.5,12.4078947 C13.8333333,12.4078947 13.8333333,11.4078947 14.5,11.4078947 L16.75,11.4078947 L16.75,9 Z M17.75,17.5 C17.75,18.1666667 16.75,18.1666667 16.75,17.5 L16.75,11.9078947 C16.75,11.6317524 16.9738576,11.4078947 17.25,11.4078947 L20,11.4078947 C20.6666667,11.4078947 20.6666667,12.4078947 20,12.4078947 L17.75,12.4078947 L17.75,17.5 Z" id="Combined-Shape" fill="#FFFFFF" fill-rule="nonzero" mask="url(#mask-2)"></path>
+                    <path d="M11.75,5 C11.75,4.33333333 12.75,4.33333333 12.75,5 L12.75,7.61538462 C12.75,7.89152699 12.5261424,8.11538462 12.25,8.11538462 L9.5,8.11538462 C8.83333333,8.11538462 8.83333333,7.11538462 9.5,7.11538462 L11.75,7.11538462 L11.75,5 Z M12.75,13.5 C12.75,14.1666667 11.75,14.1666667 11.75,13.5 L11.75,7.61538462 C11.75,7.33924224 11.9738576,7.11538462 12.25,7.11538462 L15,7.11538462 C15.6666667,7.11538462 15.6666667,8.11538462 15,8.11538462 L12.75,8.11538462 L12.75,13.5 Z" id="Combined-Shape" fill="#FFFFFF" fill-rule="nonzero" mask="url(#mask-2)"></path>
+                    <path d="M7.75,8 L7.75,10.115 L10,10.1153846 C10.6666667,10.1153846 10.6666667,11.1153846 10,11.1153846 L7.75,11.1153846 L7.75,16.5 C7.75,17.1666667 6.75,17.1666667 6.75,16.5 L6.749,11.115 L4.5,11.1153846 C3.83333333,11.1153846 3.83333333,10.1153846 4.5,10.1153846 L6.75,10.1153846 L6.75,8 C6.75,7.33333333 7.75,7.33333333 7.75,8 Z" id="Combined-Shape" fill="#FFFFFF" fill-rule="nonzero" mask="url(#mask-2)"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

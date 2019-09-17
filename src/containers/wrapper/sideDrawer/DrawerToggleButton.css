@@ -1,0 +1,13 @@
+.toggleButton {
+    font: Avenir;
+    color: #8C9B94;
+    background-color: transparent;
+    border: none;
+    font-weight: 500;
+    font-size: .75em;
+    cursor: pointer;
+}
+
+.toggleButton:hover {
+    color: rgb(103, 114, 109);
+}
