@@ -12,19 +12,20 @@ class Header extends Component {
 
     render () {
         return (
-            <div className='HeaderWrapper'>
-                <div className='Hamburger'>
-                    <DrawerToggleButton click={this.props.drawerClickHandler}/>
-                </div>
-                <div className='Title'>
-                    <img src={Title} alt="Mobilization Index"/>
-                    <p>Visualizing the sending potential of global church</p>
-                </div> 
-                <div className='cmmIcon'>
-                    <span> A PROJECT OF <img style={{verticalAlign: "middle", paddingLeft: "5px"}} src={cmmMark} alt="CMM Mark" /> </span>
+            <div className='HeaderContainer'>
+                <div className='HeaderWrapper'>
+                    <div className='Hamburger'>
+                        <DrawerToggleButton click={this.props.drawerClickHandler}/>
+                    </div>
+                    <div className='Title'>
+                        <img src={Title} alt="Mobilization Index"/>
+                        <p>Visualizing the sending potential of global church</p>
+                    </div> 
+                    <div className='cmmIcon'>
+                        <span> A PROJECT OF <img style={{verticalAlign: "middle", paddingLeft: "5px"}} src={cmmMark} alt="CMM Mark" /> </span>
+                    </div>
                 </div>
             </div>
-
         )
     }
 

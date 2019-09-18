@@ -11,9 +11,7 @@ export default class Footer extends Component {
 
     render () {
         return (
-            <div className="FooterWrapper">
-                {/* <img src={FooterInner} /> */}
-                
+            <div className="FooterWrapper">               
                 <div className="LeftContent">
                     <p> 
                     <span style={{ fontSize: "1.3125em" }}>Mobilization Index</span> <br />
