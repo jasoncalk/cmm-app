@@ -9,11 +9,26 @@ class CompareComponent extends Component {
 
         this.state = { 
             countries: [
-                { id: 42, name: 'Argentina', number_of_evangelicals: 3, cultural_bridges_to_upgs: 19.72, regional_access_to_upgs: 772, religious_freedom: 2.4, prosperity: 53, current_sending_abroad: 0.01, mobilization_potential: 'High' },
-                { id: 33, name: 'Costa Rica', number_of_evangelicals: 700, cultural_bridges_to_upgs: 28.65, regional_access_to_upgs: 772, religious_freedom: 2.2, prosperity: 31, current_sending_abroad: 0.0083, mobilization_potential: 'High' }
+                // { id: 42, name: 'Argentina', number_of_evangelicals: 3, cultural_bridges_to_upgs: 19.72, regional_access_to_upgs: 772, religious_freedom: 2.4, prosperity: 53, current_sending_abroad: 0.01, mobilization_potential: 'High' },
+                // { id: 33, name: 'Costa Rica', number_of_evangelicals: 700, cultural_bridges_to_upgs: 28.65, regional_access_to_upgs: 772, religious_freedom: 2.2, prosperity: 31, current_sending_abroad: 0.0083, mobilization_potential: 'High' }
             ]
         }
     }
+
+    componentDidMount() {
+        fetch('https://mobindex.herokuapp.com/countries.json')
+        .then(res => {
+            if (!res.ok) {
+                console.log('error');
+            }
+            return res.json();
+        })
+        .then(response => {
+            console.log(response.countries);
+            this.setState({ countries: response.countries[0] });
+        })
+    }
+
 
     renderTableData() {
         return this.state.countries.map((countries) => {
@@ -51,15 +66,19 @@ class CompareComponent extends Component {
                             </div>
                         </div>
                         <table id='countries'>
-                            <tbody>
-                                <th>Country</th>
-                                <th>Total Number of Evangelicals</th>
-                                <th>Cultural Bridges to UPGs</th>
-                                <th>Regional Access to UPGs</th>
-                                <th>Religious Freedom</th>
-                                <th>Prosperty</th>
-                                <th>Current Sending Abroad</th>
-                                <th>Mobilization Potential</th>
+                            <thead>
+                                <tr>
+                                    <th>Country</th>
+                                    <th>Total Number of Evangelicals</th>
+                                    <th>Cultural Bridges to UPGs</th>
+                                    <th>Regional Access to UPGs</th>
+                                    <th>Religious Freedom</th>
+                                    <th>Prosperty</th>
+                                    <th>Current Sending Abroad</th>
+                                    <th>Mobilization Potential</th>
+                                </tr>
+                            </thead>    
+                            <tbody>    
                                 {this.renderTableData()}
                             </tbody>
                         </table>

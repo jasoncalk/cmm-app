@@ -32,7 +32,7 @@ export default class Footer extends Component {
                         Sort + Compare
                     </p>
                     </div>
-                    <div classname="RightLower">
+                    <div className="RightLower">
                         <p>
                             About <br />
                             Sources <br />
